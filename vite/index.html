@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="fixed top-0 right-0 left-0">
+      <div class="flex justify-between mx-20 p-4 ">
+        <a href="/">Logo</a>
+        <nav>
+          <ul class="flex gap-4">
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>Link3</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="bg-[url('/src/assets/images/bg_patterns.png')] bg-cover">
+        <div class="h-screen h-[100dvh] grid grid-rows-2">
+
+          <div class="grid place-content-center">
+            <h1 class="relative text-neutral-700 font-extrabold text-9xl uppercase text-center
+            after:absolute after:content-[''] after:inset-0 after:bg-gradient-to-t after:from-gray-700 after:via-gray-900 after:to-gray-700 after:mix-blend-screen">Mark Johnson</h1>
+            <div class="grid gap-10 justify-center items-center mt-20 md:grid-flow-col">
+              <div class="relative">
+                <img src="/src/assets/images/techy_waving_toleft_eyes_open_hugging-button___back.png" alt="" class="absolute -top-[65px] -left-[60px] w-[100px] h-[100px]">
+                <button class="rounded-2xl border-2 border-gray-700 bg-gradient-to-t from-gray-900 to-gray-700 hover:from-gray-800 hover:to-gray-900 transition-all hover:cursor-pointer p-2 px-10  text-white relative z-10 w-full" >
+                  Contact Me
+                </button>
+                <img src="/src/assets/images/techy_waving_toleft_eyes_open_hugging-button___front.png" alt="" class="absolute -top-[65px] -left-[60px] w-[100px] h-[100px] z-50">
+              </div>
+              <button class="rounded-2xl border-2 border-gray-700 bg-gradient-to-t from-gray-900 to-gray-700 hover:from-gray-800 hover:to-gray-900 transition-all hover:cursor-pointer p-2 px-10  text-white ">See My Work</button>
+            </div>
+          </div>
+          
+          <div class="relative overflow-clip after:absolute after:content-[''] after:inset-0 after:bg-radial-[#1FED93,#8426CC] after:mix-blend-screen">
+            <img src="src/assets/images/spider-web-1295590_1920.png" alt="" class="block object-cover md:object-contain md:w-full md:h-full bg-transparent ">
+          </div>
+              
+        </div>
+      </section>
+
+      <section>
+        <h2 class="text-center text-3xl font-bold text-neutral-700">About Me</h2>
+        <div>
+          <img src="/src/assets/images/ernest-flowers-nd62fu5GK1w-unsplash.png" alt="image of me">
+          <p>Together we build excuisite websites using technologies like react.js, html css and js and webflow. We also do some minor design fixes and re-designs.</p>
+          <img src="/src/assets/images/techy_webdevsign.png" alt="techy showing web-dev sign" class="max-w-[150px]">
+        </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
