@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="fixed top-0 right-0 left-0">
-      <div class="flex justify-between mx-20 p-4 ">
+      <div class="flex justify-between mx-auto py-4 max-w-[1124px]">
         <a href="/">Logo</a>
         <nav>
           <ul class="flex gap-4">
@@ -20,13 +20,16 @@
         </nav>
       </div>
     </header>
-    <main>
-      <section class="bg-[url('/src/assets/images/bg_patterns.png')] bg-cover">
+    <main  class="bg-[url('/src/assets/images/bg_patterns.png')] bg-cover">
+      <div class="pt-20 w-[95%] max-w-[1024px] mx-auto">
+
+      <section>
         <div class="h-screen h-[100dvh] grid grid-rows-2">
 
           <div class="grid place-content-center">
             <h1 class="relative text-neutral-700 font-extrabold text-9xl uppercase text-center
             after:absolute after:content-[''] after:inset-0 after:bg-gradient-to-t after:from-gray-700 after:via-gray-900 after:to-gray-700 after:mix-blend-screen">Mark Johnson</h1>
+            <h2 class="text-neutral-700 text-2xl font-bold text-center">Front-End Web Developer</h2>
             <div class="grid gap-10 justify-center items-center mt-20 md:grid-flow-col">
               <div class="relative">
                 <img src="/src/assets/images/techy_waving_toleft_eyes_open_hugging-button___back.png" alt="" class="absolute -top-[65px] -left-[60px] w-[100px] h-[100px]">
@@ -47,13 +50,19 @@
       </section>
 
       <section>
-        <h2 class="text-center text-3xl font-bold text-neutral-700">About Me</h2>
-        <div>
+        <h2 class="text-center my-10 text-3xl font-bold text-neutral-700">About Me</h2>
+        <div class="grid md:grid-flow-col place-content-center">
           <img src="/src/assets/images/ernest-flowers-nd62fu5GK1w-unsplash.png" alt="image of me">
           <p>Together we build excuisite websites using technologies like react.js, html css and js and webflow. We also do some minor design fixes and re-designs.</p>
           <img src="/src/assets/images/techy_webdevsign.png" alt="techy showing web-dev sign" class="max-w-[150px]">
         </div>
       </section>
+
+      <section>
+
+      </section>
+
+      </div>
     </main>
     <footer>
 
